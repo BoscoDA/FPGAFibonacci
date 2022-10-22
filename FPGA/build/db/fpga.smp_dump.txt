@@ -1,0 +1,7 @@
+
+State Machine - |fpga_top|clk_domain_2:clk_domain_2_inst|state_machine_top:state_machine_inst|fibonacci_state
+Name fibonacci_state.end_st fibonacci_state.loop_st fibonacci_state.calculate_st fibonacci_state.idle_st 
+fibonacci_state.idle_st 0 0 0 0 
+fibonacci_state.calculate_st 0 0 1 1 
+fibonacci_state.loop_st 0 1 0 1 
+fibonacci_state.end_st 1 0 0 1 

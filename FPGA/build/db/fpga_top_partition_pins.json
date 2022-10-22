@@ -1,0 +1,37 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "led_1_red_n",
+					"strict" : false
+				},
+				{
+					"name" : "led_1_grn_n",
+					"strict" : false
+				},
+				{
+					"name" : "led_2_red_n",
+					"strict" : false
+				},
+				{
+					"name" : "led_2_grn_n",
+					"strict" : false
+				},
+				{
+					"name" : "clk_osc_20_meg",
+					"strict" : false
+				},
+				{
+					"name" : "fpga_async_in_1_n",
+					"strict" : false
+				},
+				{
+					"name" : "fpga_async_in_2",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
